@@ -614,9 +614,8 @@ h6{
 	}/* fin responsive ajuste imágenes carousel */
 
 
-	@media screen and (min-width: 768px) and (max-width: 1024px) {
-			
-			/*HEADER*/
+	@media screen and (min-width: 768px) and (max-width: 1024px) {		
+	/*HEADER*/
 			header{
 				height: 120px;
 				padding: 10px 0 10px;
@@ -648,7 +647,7 @@ h6{
 			}
 			
 			
-			/* MENU NAVEGACIÓN*/
+	/* MENU NAVEGACIÓN*/
 			nav {
 				position: absolute;
 				margin: 80px auto 0 auto;
@@ -671,7 +670,7 @@ h6{
 				margin: 0 auto;
 			}
 			
-			/*-----------CONTENT------------*/
+	/*-----------CONTENT------------*/
 			h2{
 				font-size: 35px;
 			}
@@ -718,19 +717,19 @@ h6{
 			}
 
 			
-			/*--------SECTION DISCOVER--------*/
+	/*--------SECTION DISCOVER--------*/
 			.icon_assos img {
 				margin: 20px 0 0;
 				width: 100px;
 				padding-bottom: 90px;
 			}
 			
-			/*--------SECTION ORIGIN----------*/
+	/*--------SECTION ORIGIN----------*/
 			.img_bottom {
 			    margin-top: 17px;
 			}
 			
-			/*--------SECTION SHIPPING--------*/
+	/*--------SECTION SHIPPING--------*/
 			.shipping {
 			    margin: 70px 0 0;
 			}
@@ -757,7 +756,7 @@ h6{
 				font-size: 22px;
 			}
 
-			/*FOOTER*/
+	/*FOOTER*/
 			.contact{
 				width: 90%;
 			}
@@ -783,8 +782,8 @@ h6{
 
 
 
-				@media screen and (min-width: 320px) and (max-width: 767px) {		
-					/*-----------CONTENT------------*/
+				@media screen and (max-width: 767px) {		
+				/*-----------CONTENT------------*/
 						h2{
 							font-size: 35px;
 						}
@@ -828,14 +827,21 @@ h6{
 							padding-top: 6%;
 							margin-top: 70px;
 						}
+						
+						.contact {
+						    width: 95%;
+						}
+						
+						.footer_annex_content {
+						    width: 95%;
+						}
 			
-						/*HEADER*/
+				/*HEADER*/
 						header{
 							height: 60px;
 							padding: 5px 0 10px;
 						    position: fixed;
 						}
-			file:///Users/paulinabuvinich/Desktop/AquaChileEden/img/carousel1.jpg
 			.header_content{
 				position: relative;
 				width: 100%;
@@ -861,11 +867,64 @@ h6{
 						}
 			
 			
-						/* MENU NAVEGACIÓN: Reemplazar por menu desplegable */
+				/* MENU NAVEGACIÓN: Reemplazar por menu desplegable */
 						nav {
 							display: none;
 						}
 
+				/*--------SECTION DISCOVER--------*/
+						aside {
+						    margin: -30px 0 0;
+						    width: 100%;
+						}
+						
+						.icon_assos img {
+						    margin: 0 5px;
+						}
+
+						article {
+						    display: block;
+						    float: none;
+						    margin: 30px auto;
+						    width: 86%;
+						}
+						
+				/*--------SECTION ORIGIN--------*/
+						.img_bottom {
+						    margin-top: 16px;
+						}
+						
+				/*--------SECTION SHIPPING--------*/
+			.shipping {
+			    margin: 70px 0 0;
+			}
+
+			.shipping_free{
+				width: 49%;
+				text-align: center;
+			}
 			
+			.shipping_phone{
+				width: 50%;
+				border-left: 1px solid #C2A26F;
+				text-align: center;
+			}
+			
+			.shipping img{
+				float: none;
+				height: 70px;
+			}
+			
+			.shipping p {
+			    padding: 0px 5px;
+			    line-height: 35px;
+				font-size: 22px;
+			}
+
+						
+				/*FOOTER*/
+						.footer_annex_content p {
+						    font-size: 10px;
+						}			
 				}/*  fin responsive (320px < x < 768px)  */
 			
