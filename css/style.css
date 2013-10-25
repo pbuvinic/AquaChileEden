@@ -189,7 +189,7 @@ p{
 /*-----------CAROUSEL------------*/
 #wrapper {
 	width: 100%;
-	min-width: 800px;
+	min-width: 550px;
 	height: 600px;
 	margin: -300px 0 0 0;
 	position: absolute;
@@ -607,22 +607,19 @@ h6{
 
 
 /*-----------RESPONSIVE------------*/
-	@media screen and (min-width: 548px) and (max-width: 1230px) {
+	@media screen and (min-width: 320px) and (max-width: 1230px) {
 			.img_carousel1 img{
 				margin-top: 0px;
 			}
 	}
-	
 
 
-
-	@media screen and (min-width: 548px) and (max-width: 860px) {
+	@media screen and (min-width: 768px) and (max-width: 860px) {
 			
 			/*HEADER*/
 			header{
 				height: 120px;
 				padding: 10px 0 10px;
-			    z-index: 10000;
 			    position: absolute;
 			}
 			
@@ -679,6 +676,11 @@ h6{
 				font-size: 35px;
 			}
 			
+			#title h3 {
+				font-size: 35px;
+				margin: 0 5px;			
+			}
+			
 			h4{
 				font-size: 20px;
 				letter-spacing: 1px;
@@ -691,7 +693,7 @@ h6{
 			}
 			
 			.content{
-				width: 85%;
+				width: 90%;
 			}
 			
 			section span{
@@ -757,7 +759,7 @@ h6{
 
 			/*FOOTER*/
 			.contact{
-				width: 85%;
+				width: 90%;
 			}
 			
 			h6{
@@ -770,7 +772,7 @@ h6{
 			}
 			
 			.footer_annex_content {
-			    width: 85%;
+			    width: 90%;
 			}
 			
 			.footer_annex_content p {
@@ -782,7 +784,7 @@ h6{
 
 
 
-			@media screen and (min-width: 319px) and (max-width: 547) {
+			@media screen and (min-width: 320px) and (max-width: 767) {
 				
 			}/*  fin responsive (319px < x < 547)  */
 
